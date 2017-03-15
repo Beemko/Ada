@@ -22,7 +22,9 @@ package body Ss is
    type Ttime is array (1 .. 4, 1 .. SIZE_GENERATION) of Duration;
    type TGenerate is array (1 .. SIZE_GENERATION) of INTEGER;
    
-   IntimeRequest, OuttimeResponse, InTimeGenerate, OutTimeGenerate, InWaitAgent, OutWaitAgent: Ttime;  
+   IntimeRequest, OuttimeResponse, InTimeGenerate, 
+      OutTimeGenerate, InWaitAgent, OutWaitAgent,
+      InWaitSmoker, OutWaitSmoker: Ttime;  
    IsGenerated: TGenerate;
    -- include Randomize;
    package Rnd renames Ada.Numerics.Float_Random;
@@ -48,7 +50,7 @@ package body Ss is
       Comp2 : Components;  
    begin
      -- loop
-        for I in Integer range 1 .. SIZE_GENERATION loop
+        for I in Integer range 1 .. SIZE_GENERATION * 3 loop
            if (Component = Paper) then
              Comp1 := Tabacco;
              Comp2 := Match;
@@ -61,10 +63,13 @@ package body Ss is
              Comp1 := Tabacco;
              Comp2 := Paper;
            end if;
-
+            
+            OutWaitSmoker(Id, I) := Seconds(Clock);
             IntimeRequest(Id, I) := Seconds(Clock);
             Table.Give(Comp1,Comp2);
             OuttimeResponse(Id, I) := Seconds(Clock);
+            InWaitSmoker(Id, I) := Seconds(Clock); 
+
          end loop; 
 --       end loop;
    
@@ -74,9 +79,13 @@ package body Ss is
             Put(File => MyFile, Item => Integer'Image(j));
             New_Line(File => MyFile);
             for i in integer range 1 .. SIZE_GENERATION loop
-               Put(File => MyFile, Item => "In: ");
+               Put(File => MyFile, Item => "Request table: ");
                Put( File => MyFile, Item => Duration'Image(InTimeRequest(j, i) - FIX_START_TIME));
-               Put(File => MyFile, Item => " Out: ");
+               Put(File => MyFile, Item => "Getting from table start: ");
+               Put( File => MyFile, Item => Duration'Image(InWaitSmoker(j,i) - FIX_START_TIME));
+               Put(File => MyFile, Item => "Getting from table stop: ");
+               Put( File => MyFile, Item => Duration'Image(OutWaitSmoker(j,i) - FIX_START_TIME));
+               Put(File => MyFile, Item => "Response table: ");
                Put( File => MyFile, Item => Duration'Image(OutTimeResponse(j, i) - FIX_START_TIME));
                Put(File => MyFile, Item => ";    ");
                New_Line(File => Myfile);
@@ -169,7 +178,7 @@ package body Ss is
                   while V2 = V1 loop
                      V2 := Pick_Random(Arr);
                   end loop;
-                  OutTimeGenerate(1, COUNT_GENERATION) := Seconds(Clock);
+                  OutTimeGenerate(1, COUNT_GENERATION) := Seconds(Clock);
                 else 
                   IsGenerated(COUNT_GENERATION) := 0;
                end if;
