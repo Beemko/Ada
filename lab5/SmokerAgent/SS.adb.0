@@ -7,16 +7,11 @@ with Ada.Numerics.Float_Random;
 package body Ss is
    
    -- размер генерации
-   SIZE_GENERATION: INTEGER := 100;
+   SIZE_GENERATION: INTEGER := 100;
    -- Номер генерации
    COUNT_GENERATION: INTEGER := 0;
    -- время начала генерации   
    FIX_START_TIME: Duration;
-   -- время начала генерации
-   START_TIME_GEN: Duration;   
-   -- время завершения генерации
-   FIN_TIME_GEN: Duration;
-
    
    Arr   : Comp_Arr := (Paper, Tabacco, Match);  
    Table : Tdeck;  
@@ -24,10 +19,11 @@ package body Ss is
    -- for file
    Myfile : Ada.Text_Io.File_Type;  
    
-   -- 1) Агент, Смокер
-   -- 2) Время запроса
-   type Ttime is array (1 .. 4, 1 .. SIZE_GENERATION) of Duration; 
-   IntimeRequest, OuttimeResponse, InTimeGenerate, OutTimeGenerate : Ttime;  
+   type Ttime is array (1 .. 4, 1 .. SIZE_GENERATION) of Duration;
+   type TGenerate is array (1 .. SIZE_GENERATION) of INTEGER;
+   
+   IntimeRequest, OuttimeResponse, InTimeGenerate, OutTimeGenerate, InWaitAgent, OutWaitAgent: Ttime;  
+   IsGenerated: TGenerate;
    -- include Randomize;
    package Rnd renames Ada.Numerics.Float_Random;
    Gen : Rnd.Generator;  
@@ -39,10 +35,10 @@ package body Ss is
       return A(A'First + Natural(Rnd.Random(Gen) * Float(A'Last)));
    end Pick_Random;
 
-   procedure clearMassiveGenerate() is
-      for i in SIZE_GENERATION do 
-         InTimeGenerate(1,i) := 0;
-               InTimeGenerate(1,i) := 0;
+   procedure clearMassiveGenerate is
+   begin
+      for i in 1..SIZE_GENERATION loop
+         IsGenerated(i) := 0;
       end loop;
    
    end clearMassiveGenerate;
@@ -95,31 +91,38 @@ package body Ss is
    task body Tagent is
    begin
       for I in Integer range 1 .. SIZE_GENERATION loop
+         OutWaitAgent(4, I) := Seconds(Clock);
          IntimeRequest(4, I) := Seconds(Clock);
          Table.Isempty;
          OuttimeResponse(4, I) := Seconds(Clock);
+         InWaitAgent(4, I) := Seconds(Clock);
       end loop;
 
       Open(File => Myfile, Mode => Append_File,Name => "Log.txt");
       Put(File => Myfile, Item => "Agent");
-      New_Line(File => Myfile);
       for I in Integer range 1 .. SIZE_GENERATION loop
-        Put(File => Myfile, Item => "Request to table: ");
+        New_Line(File => Myfile);
+        Put(File => Myfile, Item => "Agent stop wait: ");
+        Put(File => Myfile, Item => Duration'Image (OutWaitAgent(4, I) - FIX_START_TIME));
+        New_Line(File => Myfile);
+        Put(File => Myfile, Item => "  Request to table: ");
         Put(File => Myfile, Item => Duration'Image (IntimeRequest(4, I) - FIX_START_TIME));
-        if (IS_WAS_GENERATED = true) then
+     --   Put(File => Myfile, Item => "InInTimeGenerate: ");
+       -- Put(File => Myfile, Item => Integer'Image(IsGenerated(i)));
+         if (IsGenerated(i) = 1) then
            New_Line(File => Myfile);  
-           Put(File => Myfile, Item => "Start generate: ");
-           Put(File => Myfile, Item => Duration'Image (START_TIME_GEN - FIX_START_TIME));
-           Put(File => Myfile,Item => " End generate: ");
-           Put(File => Myfile,Item => Duration'Image (FIN_TIME_GEN - FIX_START_TIME));
+           Put(File => Myfile, Item => "    Start generate: ");
+           Put(File => Myfile, Item => Duration'Image (InTimeGenerate(1,i) - FIX_START_TIME));
+           New_Line(File => Myfile);
+           Put(File => Myfile,Item => "     End generate: ");
+           Put(File => Myfile,Item => Duration'Image (OutTimeGenerate(1,i) - FIX_START_TIME));
            New_Line(File => Myfile);  
-        else  
-           New_Line(File => Myfile);
-           Put(File => Myfile, Item => "No generate");
-           New_Line(File => Myfile);
         end if;
-        Put(File => Myfile,Item => " Response from table: ");
+        Put(File => Myfile,Item => "  Response from table: ");
         Put(File => Myfile,Item => Duration'Image (OuttimeResponse(4, I) - FIX_START_TIME));
+        New_Line(File => Myfile);
+        Put(File => Myfile, Item => "Agent start wait: ");
+        Put(File => Myfile, Item => Duration'Image (InWaitAgent(4, I) - FIX_START_TIME));
         New_Line(File => Myfile);   
       end loop;
       New_Line(File => Myfile);
@@ -152,23 +155,23 @@ package body Ss is
       loop
          select
             accept Isempty do begin Counting := 0; 
-               IS_WAS_GENERATED := false;
+            COUNT_GENERATION := COUNT_GENERATION + 1;
                for I in Res'range loop
                   if Res(I) = True then
                      Counting := Counting + 1;
                   end if;
                end loop;
                if (Counting = 0) then
-                  COUNT_GENERATION := COUNT_GENERATION + 1;
+                  IsGenerated(COUNT_GENERATION) := 1;
                   InTimeGenerate(1, COUNT_GENERATION) := Seconds(Clock);
                   V1 := Pick_Random(Arr);
                   V2 := Pick_Random(Arr);
                   while V2 = V1 loop
                      V2 := Pick_Random(Arr);
                   end loop;
-                  
-                  OutTimeGenerate(1, COUNT_GENERATION) := Seconds(Clock);
-                  IS_WAS_GENERATED := true;
+                  OutTimeGenerate(1, COUNT_GENERATION) := Seconds(Clock);
+                else 
+                  IsGenerated(COUNT_GENERATION) := 0;
                end if;
             end;
          end Isempty ;
@@ -187,6 +190,7 @@ end select;
 end loop;
 end Tdeck;
 begin
+   
    Create(File => Myfile,Mode => Out_File, Name => "Log.txt");
    Close(Myfile);
    
@@ -197,4 +201,4 @@ begin
    Put(File => Myfile, Item => Duration'Image (FIX_START_TIME));
    New_Line(File => Myfile);
    Close(Myfile);
-end SS;
+end SS;
