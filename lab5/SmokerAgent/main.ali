@@ -1,0 +1,49 @@
+V "GNAT Lib v3.12  "
+M P W=b
+A -gnatwu
+A -gnato
+A -g
+P
+R nnvvnnnnnnnnnvvnvvnnnnnnnnnvnnnvnnnnnvnn
+
+U main%b		main.adb		1D4B1EC0 NE SU
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ss%s			ss.adb			ss.ali
+W system%s		system.ads		system.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.task_info%s	s-tasinf.adb		s-tasinf.ali
+W system.tasking%s	s-taskin.adb		s-taskin.ali
+W system.tasking.stages%s  s-tassta.adb		s-tassta.ali
+
+D ada.ads		19941113010442 2359F9ED
+D a-except.ads		19981207211100 2DA50930
+D interfac.ads		19990427023020 0357E00A
+D i-c.ads		19970516000708 30F7C341
+D i-cstrin.ads		19941113042132 462439BF
+D main.adb		20170315095324 0D0524D1
+D ss.ads		20170313123716 104E3A11
+D system.ads		19990426145236 56350D64
+D s-exctab.ads		19970318043306 1A552981
+D s-osinte.ads		19990123222332 6CACB5E0
+D s-parame.ads		19990409105734 637E33DE
+D s-soflin.ads		19990409071558 519F026E
+D s-stache.ads		19990409111030 42B57F2A
+D s-stalib.ads		19990125205852 7A7199A7
+D s-stoele.ads		19980907130904 131D4539
+D s-tasinf.ads		19990211151120 0F7BBEC5
+D s-taspri.ads		19981013122316 636B904E
+D s-taskin.ads		19990412215922 4A1E121F
+D s-tassta.ads		19980626161140 264AB3EF
+D unchconv.ads		19960730014842 72DC4539
+X 6 main.adb
+4U11*Main
+6t4 Smoker_Paper
+7t4 Smoker_Tabacco
+8t4 Smoker_Match
+X 7 ss.ads
+1U9*Ss 6|1r6 2r5
+8N11*Paper 6|6r30
+9N11*Tabacco 6|7r30
+10N11*Match 6|8r30
+13T14*Tsmoker 6|6r21 7r21 8r21
+

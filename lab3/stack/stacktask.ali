@@ -1,0 +1,115 @@
+V "GNAT Lib v3.12  "
+M P W=b
+A -gnatwu
+A -gnato
+A -g
+P
+R nnvvnnnvnnnvvvvvvvnnnnnnnnvvnnnvnnnnnvnn
+
+U stacktask%b		stacktask.adb		4A53460E NE SU
+W ada%s			ada.ads			ada.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W ada.text_io.integer_aux%s  a-tiinau.adb	a-tiinau.ali
+W interfaces%s		interfac.ads		interfac.ali
+W system%s		system.ads		system.ali
+W system.arith_64%s	s-arit64.adb		s-arit64.ali
+W system.parameters%s	s-parame.adb		s-parame.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.string_ops%s	s-strops.adb		s-strops.ali
+W system.task_info%s	s-tasinf.adb		s-tasinf.ali
+W system.tasking%s	s-taskin.adb		s-taskin.ali
+W system.tasking.rendezvous%s  s-tasren.adb	s-tasren.ali
+W system.tasking.stages%s  s-tassta.adb		s-tassta.ali
+
+D ada.ads		19941113000442 2359F9ED
+D a-except.ads		19981207201100 2DA50930
+D a-finali.ads		19971119113818 3F32DEEF
+D a-filico.ads		19970304225844 1DECB9AC
+D a-ioexce.ads		19941113032010 175CB67B
+D a-stream.ads		19971119113846 5F7C277B
+D a-tags.ads		19980810193500 45EF7E4E
+D a-textio.ads		19980710020122 2D24B708
+D a-tiinau.ads		19971119113948 77D9AFB5
+D a-tiinio.ads		19971119113950 284C234E
+D a-tiinio.adb		19961024094742 35C6AA5C
+D interfac.ads		19990427013020 0357E00A
+D i-c.ads		19970515230708 30F7C341
+D i-cstrin.ads		19941113032132 462439BF
+D i-cstrea.ads		19980824002810 23D83009
+D stacktask.adb		20170222114224 6777F106
+D system.ads		19990426135236 56350D64
+D s-arit64.ads		19961219212852 45DECFCA
+D s-exctab.ads		19970318033306 1A552981
+D s-ficobl.ads		19990212153920 0C03FD47
+D s-finimp.ads		19980220214008 1C201C0F
+D s-finroo.ads		19960921205928 166D4EDA
+D s-osinte.ads		19990123212332 6CACB5E0
+D s-parame.ads		19990409095734 637E33DE
+D s-secsta.ads		19990405200846 6DF20AF1
+D s-soflin.ads		19990409061558 519F026E
+D s-stache.ads		19990409101030 42B57F2A
+D s-stalib.ads		19990125195852 7A7199A7
+D s-stoele.ads		19980907120904 131D4539
+D s-stratt.ads		19981013225624 1761725B
+D s-strops.ads		19980414234432 3DBA3DD5
+D s-tasinf.ads		19990211141120 0F7BBEC5
+D s-taspri.ads		19981013112316 636B904E
+D s-taskin.ads		19990412205922 4A1E121F
+D s-taprob.ads		19990616110206 64D6A3CC
+D s-tpoben.ads		19990412205924 512638AB
+D s-tasren.ads		19981218223326 0A08BEEB
+D s-tassta.ads		19980626151140 264AB3EF
+D s-unstyp.ads		19980605011738 7918B0AB
+D unchconv.ads		19960730004842 72DC4539
+X 1 ada.ads
+18U9*Ada 16|3r6 4r5
+X 8 a-textio.ads
+51U13*Text_IO 16|3r10 4r9
+54P9*File_Type 16|14r23
+55N32*Out_File 16|72r41
+89U14*Create 16|72r4
+90P7 File 16|72r13
+91e7 Mode 16|72r33
+92s7 Name 16|72r51
+101U14*Close 16|87r4
+101P22 File 16|87r12
+168U14*New_Line 16|85r8
+168P24 File 16|85r17
+169U14*New_Line 16|81r4
+243U14*Get 16|70r4
+245U14*Put 16|69r4 81r14
+X 10 a-tiinio.ads
+49G21*Integer_IO 16|7r29
+63U14 Put 16|84r8
+64P7 File 16|84r14
+65i7 Item 16|84r35
+X 16 stacktask.adb
+6U11*StackTask
+7U15 Int_Io 7r55
+8A12 tData 13r14
+9I12 TElem 16r9 22r27 23r27 27r27 30r32 38r32 49r34 53r34
+11A15 tFileNameOut 18r15
+13a7 Data 78r7 84r43
+14P7 Input_File 72m21 84r23 85r24 87m20
+15i4 max 27r19 32r19
+16i4 num 77m17 78r28
+18a7 myFile 70m8 72r59 81r34
+19i7 I 74m4 82r14 83m8 83r13 84r51
+19i9 N 73m4 82r18
+21t9 Stack 62r4 63r4 64r4 65r4 66r4 77r7
+22Y13 Push 49b20 62r10 63r10 64r10 65r10 66r10
+22i18 elem 50r22
+23Y13 Pop 53b20 77r13
+23i17 elem 54r21
+27a7 s 34r13 41r21
+28i7 top 32r13 33m13 33r20 34r15 40r13 41r23 42m13 42r20
+30U17 IPush 50r16
+30i23 elem 34r23
+38U17 IPop 54r16
+38i22 elem 41m13
+49i25 elem
+53i24 elem
+76i8 i 78r14
+

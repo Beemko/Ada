@@ -1,0 +1,614 @@
+
+StartTime 50801.046403000
+Agent
+Request to table: -0.000743400
+Start generate:  0.011799600 End generate:  0.011803000
+ Response from table:  0.001140900
+Request to table:  0.001143600
+Start generate:  0.011799600 End generate:  0.011803000
+ Response from table:  0.001310400
+Request to table:  0.001314800
+Start generate:  0.011799600 End generate:  0.011803000
+ Response from table:  0.001458700
+Request to table:  0.001470900
+Start generate:  0.011799600 End generate:  0.011803000
+ Response from table:  0.001655000
+Request to table:  0.001663800
+Start generate:  0.011799600 End generate:  0.011803000
+ Response from table:  0.001873600
+Request to table:  0.001883000
+Start generate:  0.011799600 End generate:  0.011803000
+ Response from table:  0.001986200
+Request to table:  0.001995400
+Start generate:  0.011799600 End generate:  0.011803000
+ Response from table:  0.002184200
+Request to table:  0.002197100
+Start generate:  0.011799600 End generate:  0.011803000
+ Response from table:  0.002349300
+Request to table:  0.002360200
+Start generate:  0.011799600 End generate:  0.011803000
+ Response from table:  0.002519700
+Request to table:  0.002531200
+Start generate:  0.011799600 End generate:  0.011803000
+ Response from table:  0.002700600
+Request to table:  0.002709600
+Start generate:  0.011799600 End generate:  0.011803000
+ Response from table:  0.002847300
+Request to table:  0.002859900
+Start generate:  0.011799600 End generate:  0.011803000
+ Response from table:  0.003019000
+Request to table:  0.003028100
+Start generate:  0.011799600 End generate:  0.011803000
+ Response from table:  0.003180400
+Request to table:  0.003185100
+Start generate:  0.011799600 End generate:  0.011803000
+ Response from table:  0.003409200
+Request to table:  0.003422000
+Start generate:  0.011799600 End generate:  0.011803000
+ Response from table:  0.003563200
+Request to table:  0.003572500
+Start generate:  0.011799600 End generate:  0.011803000
+ Response from table:  0.003766200
+Request to table:  0.003781300
+Start generate:  0.011799600 End generate:  0.011803000
+ Response from table:  0.004022200
+Request to table:  0.004024900
+Start generate:  0.011799600 End generate:  0.011803000
+ Response from table:  0.004213700
+Request to table:  0.004233400
+Start generate:  0.011799600 End generate:  0.011803000
+ Response from table:  0.004321000
+Request to table:  0.004326500
+Start generate:  0.011799600 End generate:  0.011803000
+ Response from table:  0.004548900
+Request to table:  0.004551700
+Start generate:  0.011799600 End generate:  0.011803000
+ Response from table:  0.004623600
+Request to table:  0.004626600
+Start generate:  0.011799600 End generate:  0.011803000
+ Response from table:  0.004999000
+Request to table:  0.005004600
+Start generate:  0.011799600 End generate:  0.011803000
+ Response from table:  0.005329500
+Request to table:  0.005333400
+Start generate:  0.011799600 End generate:  0.011803000
+ Response from table:  0.005396600
+Request to table:  0.005399100
+Start generate:  0.011799600 End generate:  0.011803000
+ Response from table:  0.005473900
+Request to table:  0.005478600
+Start generate:  0.011799600 End generate:  0.011803000
+ Response from table:  0.005551100
+Request to table:  0.005556200
+Start generate:  0.011799600 End generate:  0.011803000
+ Response from table:  0.005624700
+Request to table:  0.005629500
+Start generate:  0.011799600 End generate:  0.011803000
+ Response from table:  0.005680400
+Request to table:  0.005683500
+Start generate:  0.011799600 End generate:  0.011803000
+ Response from table:  0.005755400
+Request to table:  0.005762000
+Start generate:  0.011799600 End generate:  0.011803000
+ Response from table:  0.005824600
+Request to table:  0.005826900
+Start generate:  0.011799600 End generate:  0.011803000
+ Response from table:  0.005944800
+Request to table:  0.005947300
+Start generate:  0.011799600 End generate:  0.011803000
+ Response from table:  0.006005000
+Request to table:  0.006008000
+Start generate:  0.011799600 End generate:  0.011803000
+ Response from table:  0.006066700
+Request to table:  0.006069100
+Start generate:  0.011799600 End generate:  0.011803000
+ Response from table:  0.006129200
+Request to table:  0.006131200
+Start generate:  0.011799600 End generate:  0.011803000
+ Response from table:  0.006189500
+Request to table:  0.006192300
+Start generate:  0.011799600 End generate:  0.011803000
+ Response from table:  0.006248900
+Request to table:  0.006251300
+Start generate:  0.011799600 End generate:  0.011803000
+ Response from table:  0.006302800
+Request to table:  0.006306300
+Start generate:  0.011799600 End generate:  0.011803000
+ Response from table:  0.006359100
+Request to table:  0.006361100
+Start generate:  0.011799600 End generate:  0.011803000
+ Response from table:  0.006425900
+Request to table:  0.006428400
+Start generate:  0.011799600 End generate:  0.011803000
+ Response from table:  0.006489000
+Request to table:  0.006492200
+Start generate:  0.011799600 End generate:  0.011803000
+ Response from table:  0.006563700
+Request to table:  0.006566800
+Start generate:  0.011799600 End generate:  0.011803000
+ Response from table:  0.006626800
+Request to table:  0.006630300
+Start generate:  0.011799600 End generate:  0.011803000
+ Response from table:  0.006689800
+Request to table:  0.006693700
+Start generate:  0.011799600 End generate:  0.011803000
+ Response from table:  0.006759300
+Request to table:  0.006763000
+Start generate:  0.011799600 End generate:  0.011803000
+ Response from table:  0.006845100
+Request to table:  0.006849900
+Start generate:  0.011799600 End generate:  0.011803000
+ Response from table:  0.006910400
+Request to table:  0.006913500
+Start generate:  0.011799600 End generate:  0.011803000
+ Response from table:  0.006971100
+Request to table:  0.006976700
+Start generate:  0.011799600 End generate:  0.011803000
+ Response from table:  0.007045300
+Request to table:  0.007047300
+Start generate:  0.011799600 End generate:  0.011803000
+ Response from table:  0.007436400
+Request to table:  0.007440100
+Start generate:  0.011799600 End generate:  0.011803000
+ Response from table:  0.007501500
+Request to table:  0.007503300
+Start generate:  0.011799600 End generate:  0.011803000
+ Response from table:  0.008008600
+Request to table:  0.008012900
+Start generate:  0.011799600 End generate:  0.011803000
+ Response from table:  0.008087600
+Request to table:  0.008089700
+Start generate:  0.011799600 End generate:  0.011803000
+ Response from table:  0.008145300
+Request to table:  0.008148900
+Start generate:  0.011799600 End generate:  0.011803000
+ Response from table:  0.008231800
+Request to table:  0.008234900
+Start generate:  0.011799600 End generate:  0.011803000
+ Response from table:  0.008302600
+Request to table:  0.008306200
+Start generate:  0.011799600 End generate:  0.011803000
+ Response from table:  0.008377100
+Request to table:  0.008379700
+Start generate:  0.011799600 End generate:  0.011803000
+ Response from table:  0.008435700
+Request to table:  0.008438900
+Start generate:  0.011799600 End generate:  0.011803000
+ Response from table:  0.008500600
+Request to table:  0.008503600
+Start generate:  0.011799600 End generate:  0.011803000
+ Response from table:  0.008556500
+Request to table:  0.008558700
+Start generate:  0.011799600 End generate:  0.011803000
+ Response from table:  0.008612000
+Request to table:  0.008615300
+Start generate:  0.011799600 End generate:  0.011803000
+ Response from table:  0.008673100
+Request to table:  0.008675600
+Start generate:  0.011799600 End generate:  0.011803000
+ Response from table:  0.008734900
+Request to table:  0.008736700
+Start generate:  0.011799600 End generate:  0.011803000
+ Response from table:  0.008793600
+Request to table:  0.008797100
+Start generate:  0.011799600 End generate:  0.011803000
+ Response from table:  0.008846500
+Request to table:  0.008848900
+Start generate:  0.011799600 End generate:  0.011803000
+ Response from table:  0.008907100
+Request to table:  0.008909700
+Start generate:  0.011799600 End generate:  0.011803000
+ Response from table:  0.008975900
+Request to table:  0.008980200
+Start generate:  0.011799600 End generate:  0.011803000
+ Response from table:  0.009040600
+Request to table:  0.009042500
+Start generate:  0.011799600 End generate:  0.011803000
+ Response from table:  0.009095000
+Request to table:  0.009098000
+Start generate:  0.011799600 End generate:  0.011803000
+ Response from table:  0.009154200
+Request to table:  0.009157200
+Start generate:  0.011799600 End generate:  0.011803000
+ Response from table:  0.009211300
+Request to table:  0.009213600
+Start generate:  0.011799600 End generate:  0.011803000
+ Response from table:  0.009273500
+Request to table:  0.009276300
+Start generate:  0.011799600 End generate:  0.011803000
+ Response from table:  0.009331800
+Request to table:  0.009334500
+Start generate:  0.011799600 End generate:  0.011803000
+ Response from table:  0.009391700
+Request to table:  0.009395000
+Start generate:  0.011799600 End generate:  0.011803000
+ Response from table:  0.010261600
+Request to table:  0.010265300
+Start generate:  0.011799600 End generate:  0.011803000
+ Response from table:  0.010311700
+Request to table:  0.010314700
+Start generate:  0.011799600 End generate:  0.011803000
+ Response from table:  0.010359500
+Request to table:  0.010363300
+Start generate:  0.011799600 End generate:  0.011803000
+ Response from table:  0.010426000
+Request to table:  0.010428300
+Start generate:  0.011799600 End generate:  0.011803000
+ Response from table:  0.010481100
+Request to table:  0.010483500
+Start generate:  0.011799600 End generate:  0.011803000
+ Response from table:  0.010542100
+Request to table:  0.010544600
+Start generate:  0.011799600 End generate:  0.011803000
+ Response from table:  0.010603900
+Request to table:  0.010607500
+Start generate:  0.011799600 End generate:  0.011803000
+ Response from table:  0.010669200
+Request to table:  0.010671500
+Start generate:  0.011799600 End generate:  0.011803000
+ Response from table:  0.010740600
+Request to table:  0.010742600
+Start generate:  0.011799600 End generate:  0.011803000
+ Response from table:  0.010805600
+Request to table:  0.010809200
+Start generate:  0.011799600 End generate:  0.011803000
+ Response from table:  0.010858600
+Request to table:  0.010862300
+Start generate:  0.011799600 End generate:  0.011803000
+ Response from table:  0.010921300
+Request to table:  0.010924400
+Start generate:  0.011799600 End generate:  0.011803000
+ Response from table:  0.010976800
+Request to table:  0.010979800
+Start generate:  0.011799600 End generate:  0.011803000
+ Response from table:  0.011028900
+Request to table:  0.011031900
+Start generate:  0.011799600 End generate:  0.011803000
+ Response from table:  0.011089800
+Request to table:  0.011092600
+Start generate:  0.011799600 End generate:  0.011803000
+ Response from table:  0.011160900
+Request to table:  0.011165500
+Start generate:  0.011799600 End generate:  0.011803000
+ Response from table:  0.011210800
+Request to table:  0.011214200
+Start generate:  0.011799600 End generate:  0.011803000
+ Response from table:  0.011298400
+Request to table:  0.011301900
+Start generate:  0.011799600 End generate:  0.011803000
+ Response from table:  0.011372500
+Request to table:  0.011375400
+Start generate:  0.011799600 End generate:  0.011803000
+ Response from table:  0.011424800
+Request to table:  0.011428300
+Start generate:  0.011799600 End generate:  0.011803000
+ Response from table:  0.011480000
+Request to table:  0.011484100
+Start generate:  0.011799600 End generate:  0.011803000
+ Response from table:  0.011540000
+Request to table:  0.011542900
+Start generate:  0.011799600 End generate:  0.011803000
+ Response from table:  0.011588400
+Request to table:  0.011592200
+Start generate:  0.011799600 End generate:  0.011803000
+ Response from table:  0.011660800
+Request to table:  0.011664600
+Start generate:  0.011799600 End generate:  0.011803000
+ Response from table:  0.011718900
+Request to table:  0.011722000
+Start generate:  0.011799600 End generate:  0.011803000
+ Response from table:  0.011780300
+Request to table:  0.011783400
+Start generate:  0.011799600 End generate:  0.011803000
+ Response from table:  0.011831200
+
+
+Smoker 1
+In:  0.000788700 Out:  0.001090400;    
+In:  0.001099700 Out:  0.001568100;    
+In:  0.001571900 Out:  0.002017400;    
+In:  0.002025700 Out:  0.002593400;    
+In:  0.002605000 Out:  0.003115000;    
+In:  0.003119600 Out:  0.003626800;    
+In:  0.003638700 Out:  0.004277700;    
+In:  0.004282500 Out:  0.004660900;    
+In:  0.004663600 Out:  0.005353500;    
+In:  0.005355900 Out:  0.005578500;    
+In:  0.005581500 Out:  0.005771100;    
+In:  0.005773400 Out:  0.006034900;    
+In:  0.006038100 Out:  0.006210900;    
+In:  0.006214500 Out:  0.006380900;    
+In:  0.006383600 Out:  0.006595700;    
+In:  0.006598800 Out:  0.006804800;    
+In:  0.006807600 Out:  0.006994500;    
+In:  0.006999400 Out:  0.007232400;    
+In:  0.007236800 Out:  0.007344200;    
+In:  0.007348000 Out:  0.007467000;    
+In:  0.007470400 Out:  0.008106300;    
+In:  0.008111500 Out:  0.008328100;    
+In:  0.008332200 Out:  0.008528900;    
+In:  0.008531800 Out:  0.008688300;    
+In:  0.008693900 Out:  0.008867100;    
+In:  0.008871700 Out:  0.009062400;    
+In:  0.009065800 Out:  0.009231600;    
+In:  0.009234600 Out:  0.009416700;    
+In:  0.009419700 Out:  0.010380100;    
+In:  0.010384600 Out:  0.010565000;    
+In:  0.010568500 Out:  0.010761200;    
+In:  0.010764400 Out:  0.010950900;    
+In:  0.010953900 Out:  0.011117800;    
+In:  0.011120900 Out:  0.011335000;    
+In:  0.011337500 Out:  0.011512000;    
+In:  0.011514500 Out:  0.011683500;    
+In:  0.011687600 Out:  0.011857500;    
+In:  0.011860500 Out:  0.011938100;    
+In:  0.011940800 Out:  0.012037900;    
+In:  0.012041300 Out:  0.012196900;    
+In:  0.012200800 Out:  0.012267200;    
+In:  0.012270100 Out:  0.012344700;    
+In:  0.012348000 Out:  0.012430300;    
+In:  0.012432900 Out:  0.012498500;    
+In:  0.012504600 Out:  0.012566600;    
+In:  0.012569600 Out:  0.012641600;    
+In:  0.012646000 Out:  0.012719900;    
+In:  0.012722900 Out:  0.012787300;    
+In:  0.012791000 Out:  0.012846300;    
+In:  0.012850900 Out:  0.012920600;    
+In:  0.012924800 Out:  0.013006900;    
+In:  0.013009300 Out:  0.013078100;    
+In:  0.013082300 Out:  0.013140200;    
+In:  0.013142500 Out:  0.013218200;    
+In:  0.013221300 Out:  0.013286200;    
+In:  0.013289800 Out:  0.013462800;    
+In:  0.013468100 Out:  0.013524400;    
+In:  0.013528000 Out:  0.013589000;    
+In:  0.013593000 Out:  0.013651700;    
+In:  0.013655200 Out:  0.013724000;    
+In:  0.013727000 Out:  0.013790500;    
+In:  0.013793300 Out:  0.013873600;    
+In:  0.013876300 Out:  0.013952300;    
+In:  0.013954700 Out:  0.014037600;    
+In:  0.014040300 Out:  0.014502500;    
+In:  0.014506700 Out:  0.014571200;    
+In:  0.014573800 Out:  0.014647800;    
+In:  0.014650900 Out:  0.015085400;    
+In:  0.015090300 Out:  0.015148200;    
+In:  0.015150700 Out:  0.015209300;    
+In:  0.015212300 Out:  0.015307300;    
+In:  0.015312100 Out:  0.015382600;    
+In:  0.015386800 Out:  0.015439600;    
+In:  0.015444400 Out:  0.015514100;    
+In:  0.015517100 Out:  0.015582600;    
+In:  0.015585700 Out:  0.015645800;    
+In:  0.015650000 Out:  0.015719400;    
+In:  0.015723000 Out:  0.015784600;    
+In:  0.015787600 Out:  0.015861800;    
+In:  0.015864900 Out:  0.015923100;    
+In:  0.015925600 Out:  0.015997800;    
+In:  0.016002200 Out:  0.016076900;    
+In:  0.016079400 Out:  0.016143900;    
+In:  0.016146800 Out:  0.016217600;    
+In:  0.016220600 Out:  0.016288000;    
+In:  0.016290600 Out:  0.016353600;    
+In:  0.016356500 Out:  0.016420700;    
+In:  0.016424300 Out:  0.016493800;    
+In:  0.016496800 Out:  0.016556500;    
+In:  0.016558900 Out:  0.016673600;    
+In:  0.016677000 Out:  0.016780800;    
+In:  0.016784200 Out:  0.016867100;    
+In:  0.016871000 Out:  0.016958900;    
+In:  0.016961700 Out:  0.017050300;    
+In:  0.017052500 Out:  0.017134500;    
+In:  0.017137500 Out:  0.017219100;    
+In:  0.017223200 Out:  0.017307700;    
+In:  0.017311800 Out:  0.017400800;    
+In:  0.017403800 Out: -50801.046403000;    
+In: -50801.046403000 Out: -50801.046403000;    
+
+
+Smoker 2
+In:  0.000795200 Out:  0.001212000;    
+In:  0.001224700 Out:  0.001743000;    
+In:  0.001756900 Out:  0.002262700;    
+In:  0.002271500 Out:  0.002753400;    
+In:  0.002785900 Out:  0.003237400;    
+In:  0.003246000 Out:  0.003935900;    
+In:  0.003941600 Out:  0.004436100;    
+In:  0.004455400 Out:  0.005030300;    
+In:  0.005035600 Out:  0.005511500;    
+In:  0.005514300 Out:  0.005705600;    
+In:  0.005708200 Out:  0.005966500;    
+In:  0.005969100 Out:  0.006157600;    
+In:  0.006160200 Out:  0.006327400;    
+In:  0.006331100 Out:  0.006514000;    
+In:  0.006517100 Out:  0.006722700;    
+In:  0.006726200 Out:  0.006939800;    
+In:  0.006943600 Out:  0.007416700;    
+In:  0.007422300 Out:  0.008032200;    
+In:  0.008037900 Out:  0.008260800;    
+In:  0.008264000 Out:  0.008459600;    
+In:  0.008462500 Out:  0.008637800;    
+In:  0.008640800 Out:  0.008818000;    
+In:  0.008820300 Out:  0.009004600;    
+In:  0.009008100 Out:  0.009180400;    
+In:  0.009183200 Out:  0.009357900;    
+In:  0.009360400 Out:  0.010335400;    
+In:  0.010338700 Out:  0.010497900;    
+In:  0.010501700 Out:  0.010689500;    
+In:  0.010694100 Out:  0.010880700;    
+In:  0.010883800 Out:  0.011059000;    
+In:  0.011062400 Out:  0.011235100;    
+In:  0.011239200 Out:  0.011450800;    
+In:  0.011454300 Out:  0.011615500;    
+In:  0.011619400 Out:  0.011802100;    
+In:  0.011806100 Out:  0.011911400;    
+In:  0.011914400 Out:  0.012016300;    
+In:  0.012019500 Out:  0.012172400;    
+In:  0.012175700 Out:  0.012243600;    
+In:  0.012246600 Out:  0.012323900;    
+In:  0.012326900 Out:  0.012401500;    
+In:  0.012405100 Out:  0.012474900;    
+In:  0.012480300 Out:  0.012542300;    
+In:  0.012546400 Out:  0.012620800;    
+In:  0.012624400 Out:  0.012701200;    
+In:  0.012704800 Out:  0.012764600;    
+In:  0.012768800 Out:  0.012828200;    
+In:  0.012832900 Out:  0.012897500;    
+In:  0.012901700 Out:  0.012980200;    
+In:  0.012985100 Out:  0.013051300;    
+In:  0.013056800 Out:  0.013121000;    
+In:  0.013126200 Out:  0.013194600;    
+In:  0.013198100 Out:  0.013261500;    
+In:  0.013265200 Out:  0.013329200;    
+In:  0.013332300 Out:  0.013397900;    
+In:  0.013401600 Out:  0.013477500;    
+In:  0.013481100 Out:  0.013544700;    
+In:  0.013548000 Out:  0.013614100;    
+In:  0.013617300 Out:  0.013680900;    
+In:  0.013685500 Out:  0.013750600;    
+In:  0.013754800 Out:  0.013822300;    
+In:  0.013825400 Out:  0.013899400;    
+In:  0.013903700 Out:  0.013981300;    
+In:  0.013986600 Out:  0.014054200;    
+In:  0.014058200 Out:  0.014128200;    
+In:  0.014130600 Out:  0.014177700;    
+In:  0.014180700 Out:  0.014231000;    
+In:  0.014233100 Out:  0.014286300;    
+In:  0.014289300 Out:  0.014354900;    
+In:  0.014357300 Out:  0.014410600;    
+In:  0.014413000 Out:  0.014455900;    
+In:  0.014458800 Out:  0.014511800;    
+In:  0.014514600 Out:  0.014587700;    
+In:  0.014591300 Out:  0.014668200;    
+In:  0.014672600 Out:  0.014730600;    
+In:  0.014733200 Out:  0.014790900;    
+In:  0.014793700 Out:  0.014839500;    
+In:  0.014842300 Out:  0.014920500;    
+In:  0.014923300 Out:  0.014973000;    
+In:  0.014975100 Out:  0.015033500;    
+In:  0.015036700 Out:  0.015092000;    
+In:  0.015095900 Out:  0.015164500;    
+In:  0.015167700 Out:  0.015224200;    
+In:  0.015228000 Out:  0.015338800;    
+In:  0.015342400 Out:  0.015395100;    
+In:  0.015399000 Out:  0.015461500;    
+In:  0.015464000 Out:  0.015531400;    
+In:  0.015534400 Out:  0.015598000;    
+In:  0.015602800 Out:  0.015668400;    
+In:  0.015672000 Out:  0.015739200;    
+In:  0.015742200 Out:  0.015808400;    
+In:  0.015810800 Out:  0.015879100;    
+In:  0.015881400 Out:  0.015948600;    
+In:  0.015950900 Out:  0.016022700;    
+In:  0.016025400 Out:  0.016090300;    
+In:  0.016093300 Out:  0.016164600;    
+In:  0.016167000 Out:  0.016238100;    
+In:  0.016241800 Out:  0.016306600;    
+In:  0.016309700 Out:  0.016368800;    
+In:  0.016371400 Out:  0.016439300;    
+In:  0.016442300 Out:  0.016513400;    
+
+
+Smoker 3
+In:  0.000899600 Out:  0.001367800;    
+In:  0.001380900 Out:  0.001926800;    
+In:  0.001939400 Out:  0.002420700;    
+In:  0.002432900 Out:  0.002956000;    
+In:  0.002964600 Out:  0.003458800;    
+In:  0.003470200 Out:  0.004055900;    
+In:  0.004071300 Out:  0.004985300;    
+In:  0.004990000 Out:  0.005430400;    
+In:  0.005433800 Out:  0.005652100;    
+In:  0.005655100 Out:  0.005908600;    
+In:  0.005911600 Out:  0.006087600;    
+In:  0.006090700 Out:  0.006269000;    
+In:  0.006271100 Out:  0.006456400;    
+In:  0.006458400 Out:  0.006651300;    
+In:  0.006653600 Out:  0.006874100;    
+In:  0.006877800 Out:  0.007065600;    
+In:  0.007070200 Out:  0.007345200;    
+In:  0.007349100 Out:  0.007974800;    
+In:  0.007979000 Out:  0.008181700;    
+In:  0.008185000 Out:  0.008409300;    
+In:  0.008412500 Out:  0.008582700;    
+In:  0.008585700 Out:  0.008750500;    
+In:  0.008754200 Out:  0.008943000;    
+In:  0.008946300 Out:  0.009126000;    
+In:  0.009129100 Out:  0.009300400;    
+In:  0.009304600 Out:  0.010286300;    
+In:  0.010289100 Out:  0.010454200;    
+In:  0.010457200 Out:  0.010638400;    
+In:  0.010641500 Out:  0.010827400;    
+In:  0.010831100 Out:  0.011002500;    
+In:  0.011005500 Out:  0.011187500;    
+In:  0.011190100 Out:  0.011395100;    
+In:  0.011398700 Out:  0.011567000;    
+In:  0.011570100 Out:  0.011734500;    
+In:  0.011736900 Out:  0.011888500;    
+In:  0.011892200 Out:  0.011990200;    
+In:  0.011993300 Out:  0.012067000;    
+In:  0.012071000 Out:  0.012220100;    
+In:  0.012223700 Out:  0.012295400;    
+In:  0.012298000 Out:  0.012372700;    
+In:  0.012376300 Out:  0.012446800;    
+In:  0.012451000 Out:  0.012510800;    
+In:  0.012513300 Out:  0.012596700;    
+In:  0.012602000 Out:  0.012674700;    
+In:  0.012677700 Out:  0.012744600;    
+In:  0.012749500 Out:  0.012807900;    
+In:  0.012811300 Out:  0.012875300;    
+In:  0.012879400 Out:  0.012938700;    
+In:  0.012943600 Out:  0.013035600;    
+In:  0.013040000 Out:  0.013091000;    
+In:  0.013094000 Out:  0.013163000;    
+In:  0.013166600 Out:  0.013244900;    
+In:  0.013247800 Out:  0.013351200;    
+In:  0.013354900 Out:  0.013418800;    
+In:  0.013423600 Out:  0.013506200;    
+In:  0.013511000 Out:  0.013571800;    
+In:  0.013574900 Out:  0.013632400;    
+In:  0.013636000 Out:  0.013707200;    
+In:  0.013709500 Out:  0.013774800;    
+In:  0.013777300 Out:  0.013846200;    
+In:  0.013848400 Out:  0.013924500;    
+In:  0.013927000 Out:  0.014011400;    
+In:  0.014013400 Out:  0.014086200;    
+In:  0.014089700 Out:  0.014155600;    
+In:  0.014158500 Out:  0.014204200;    
+In:  0.014209400 Out:  0.014266100;    
+In:  0.014270400 Out:  0.014329300;    
+In:  0.014332500 Out:  0.014375400;    
+In:  0.014378000 Out:  0.014426900;    
+In:  0.014430300 Out:  0.014482700;    
+In:  0.014488100 Out:  0.014540100;    
+In:  0.014544000 Out:  0.014619700;    
+In:  0.014622100 Out:  0.014692200;    
+In:  0.014695400 Out:  0.014749200;    
+In:  0.014752000 Out:  0.014814500;    
+In:  0.014817400 Out:  0.014871100;    
+In:  0.014874500 Out:  0.014944000;    
+In:  0.014948200 Out:  0.015003700;    
+In:  0.015007200 Out:  0.015056000;    
+In:  0.015059400 Out:  0.015109200;    
+In:  0.015112800 Out:  0.015187300;    
+In:  0.015191400 Out:  0.015244100;    
+In:  0.015249400 Out:  0.015356300;    
+In:  0.015361000 Out:  0.015414100;    
+In:  0.015417700 Out:  0.015478700;    
+In:  0.015481100 Out:  0.015560700;    
+In:  0.015563700 Out:  0.015622000;    
+In:  0.015625500 Out:  0.015695300;    
+In:  0.015698500 Out:  0.015768400;    
+In:  0.015772000 Out:  0.015832100;    
+In:  0.015836400 Out:  0.015896700;    
+In:  0.015899800 Out:  0.015965400;    
+In:  0.015968400 Out:  0.016047200;    
+In:  0.016051400 Out:  0.016117400;    
+In:  0.016122200 Out:  0.016188100;    
+In:  0.016191400 Out:  0.016261900;    
+In:  0.016266000 Out:  0.016333500;    
+In:  0.016336000 Out:  0.016395900;    
+In:  0.016398900 Out:  0.016461900;    
+In:  0.016466800 Out:  0.016531100;    
+
+

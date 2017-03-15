@@ -1,0 +1,64 @@
+V "GNAT Lib v3.12  "
+A -gnatwu
+A -gnato
+A -g
+P
+R vnvnnnnvnnnvvvvnvnnnnvnnnvnvnnnnnnnnnvnn
+
+U barier%b		barier.adb		0AE9BF92 PK
+W system.tasking.protected_objects.operations%s  s-tpobop.adb  s-tpobop.ali
+
+U barier%s		barier.ads		37198880 PK
+W interfaces%s		interfac.ads		interfac.ali
+W system%s		system.ads		system.ali
+W system.arith_64%s	s-arit64.adb		s-arit64.ali
+W system.finalization_implementation%s  s-finimp.adb  s-finimp.ali
+W system.finalization_root%s  s-finroo.adb	s-finroo.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.tasking%s	s-taskin.adb		s-taskin.ali
+W system.tasking.protected_objects%s  s-taprob.adb  s-taprob.ali
+W system.tasking.protected_objects.entries%s  s-tpoben.adb  s-tpoben.ali
+
+D ada.ads		19941113000442 2359F9ED
+D a-except.ads		19981207201100 2DA50930
+D a-finali.ads		19971119113818 3F32DEEF
+D a-filico.ads		19970304225844 1DECB9AC
+D a-stream.ads		19971119113846 5F7C277B
+D a-tags.ads		19980810193500 45EF7E4E
+D barier.ads		20170222093648 37198880
+D barier.adb		20170222101622 3DF03712
+D interfac.ads		19990427013020 0357E00A
+D i-c.ads		19970515230708 30F7C341
+D i-cstrin.ads		19941113032132 462439BF
+D system.ads		19990426135236 56350D64
+D s-arit64.ads		19961219212852 45DECFCA
+D s-exctab.ads		19970318033306 1A552981
+D s-finimp.ads		19980220214008 1C201C0F
+D s-finroo.ads		19960921205928 166D4EDA
+D s-osinte.ads		19990123212332 6CACB5E0
+D s-parame.ads		19990409095734 637E33DE
+D s-secsta.ads		19990405200846 6DF20AF1
+D s-soflin.ads		19990409061558 519F026E
+D s-stache.ads		19990409101030 42B57F2A
+D s-stalib.ads		19990125195852 7A7199A7
+D s-stoele.ads		19980907120904 131D4539
+D s-stratt.ads		19981013225624 1761725B
+D s-tasinf.ads		19990211141120 0F7BBEC5
+D s-taspri.ads		19981013112316 636B904E
+D s-taskin.ads		19990412205922 4A1E121F
+D s-taprob.ads		19990616110206 64D6A3CC
+D s-tpoben.ads		19990412205924 512638AB
+D s-tpobop.ads		19990104160732 4916EA6C
+D s-unstyp.ads		19980605011738 7918B0AB
+D unchconv.ads		19960730004842 72DC4539
+X 7 barier.ads
+1U9*Barier 8|1b14
+2i7*threads_number 8|3r49 5r33 24m10
+3U17*Start 8|22b17
+3i23 N 8|22b23 24r28
+5W19*tBarier 8|2b19
+6Y13 Arrive 8|3b13
+7Y21 Go 8|6r21 14b13
+9i7 threads 8|4r10 4r21 5r23 8r13 8r24 15r10 15r21 16r14
+10e7 release_threads 8|3r29 10r13 14r21 17r13
+
